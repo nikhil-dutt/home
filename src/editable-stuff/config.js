@@ -6,30 +6,18 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Nikhil",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Dutt",
+  message: " Analyst | Creative | Developer | Entrepreneur",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
-    },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://github.com/nikhil-dutt",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/nikhil-dutt/",
     },
   ],
 };
@@ -51,46 +39,75 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
-  imageSize: 375,
+  imageLink: require("C:/Users/light/Desktop/Nikhil_website/home/src/editable-stuff/picture of nikhil.jpeg"),
+  imageSize: 300,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: require("../editable-stuff/resume.pdf"),
+    "4th-year undergraduate at the University of California, Berkeley pursuing a dual degree in Data Science and Economics. Strong leadership and project management skills through numerous entrepreneurial ventures. Well versed in developing data analysis models and creating machine learning pipelines in a wide array of industries. Passionate about using data in unconventional ways to uncover stories from the past and make predictions about the future. Feel free to reach out anytime at ndutt@berkeley.edu!",
+  resume: require("C:/Users/light/Desktop/Nikhil_website/home/src/editable-stuff/Nikhil_Dutt_Resume_2020.pdf"),
 };
 
 // PROJECTS SECTION
-// Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
+// Setting up project length will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
 //      i.e: reposLength: 0,
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: true,
-  heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  show: false,
+  heading: "Current Projects",
+  gitHubUsername: "nikhil-dutt", //i.e."johnDoe12Gh"
+  reposLength: 2,
+  specificRepos: ["nikhil-dutt.github.io","ds4a"],
 };
 
 // Leadership SECTION
 const leadership = {
-  show: false,
-  heading: "Leadership",
+  show: true,
+  heading: "Background",
   message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+    ("I possess three unique traits that would make me a valuable asset to your organization." + "\n" +
+     "The first is that I have an entrepreneurial mindset. I have always loved creating things that I felt were helpful to others. My earliest entrepreneurial memory was when I won my elementary school science fair with a magnetic zipper jacket.  It was created because I hated how cumbersome it was to properly align a regular zipper. Then, in High School, I created an app that would help doctors pictorially confirm where they were planning to do surgeries to prevent wrong site incisions, which is a surprisingly common mistake. Now, I am building a satellite image detection model with the United Nations to use in identifying poppy drug fields in Mexico. My numerous ventures have given me strong leadership and project management skills." + "\n" +
+     "The second major quality I possess is that I am a naturally curious person. I spend a good portion of my free time just learning about a variety of things through podcasts and books. This can range from developmental economics to physics to sports. In a way, I think this is my greatest asset. The wide array of knowledge gives me an interdisciplinary perspective on problems, allowing me to uniquely connect the dots to create more fruitful solutions."+"\n"+"Finally, I use a creative lens when analyzing the world. This is best shown through my love of comedy. I am enamored with the art of making a person laugh because there is no greater feeling. I grew up as the class clown and eventually employed my skillset in standup comedy at UC Berkeley. Being an astute comedian requires a strong understanding of people and situations. You have to be able to approach an idea from an angle nobody suspects to get the biggest laugh. I would leverage this creativity in an industry setting."
+     ),
+//      ("I possess three unique traits that would make me a valuable asset to your organization." + "\n" + "steve"),
   images: [
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("C:/Users/light/Desktop/Nikhil_website/home/src/editable-stuff/ai.jpg"),
+//      label: "First slide label",
+      paragraph: "Digital Art I created. Each dot in the eye is the profile picture of a friend on Facebook.",
     },
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("C:/Users/light/Desktop/Nikhil_website/home/src/editable-stuff/cow.JPG"),
+//      label: "An Object Detection Model thought I was a cow!",
+      paragraph: "Object Detection Model thought I was a cow!",
+    },
+    {
+      img: require('C:/Users/light/Desktop/Nikhil_website/home/src/editable-stuff/flba.jpg'),
+//      label: "Third slide label",
+      paragraph: "Winning the FBLA State Championship!",
+    },
+    {
+      img: require("C:/Users/light/Desktop/Nikhil_website/home/src/editable-stuff/houdini.png"),
+//      label: "Fourth slide label",
+      paragraph: "Developing App in the UC Berkeley Accelerator Program!",
+    },
+    {
+      img: require("C:/Users/light/Desktop/Nikhil_website/home/src/editable-stuff/ed cross.JPG"),
+//      label: "Fifth slide label",
+      paragraph: "Central Florida Red Cross Council",
+    },
+    {
+      img: require("C:/Users/light/Desktop/Nikhil_website/home/src/editable-stuff/ewsarticle.png"),
+//      label: "Sixth slide label",
+      paragraph: "News Article written about me!",
+
+    },
+    {
+      img: require("C:/Users/light/Desktop/Nikhil_website/home/src/editable-stuff/IMG_4124.jpg"),
+      paragraph: "International Student Summit"
     },
   ],
   imageSize: {
-    width:"615",
+    width:"650",
     height:"450"
   }
 };
@@ -101,13 +118,13 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "SQL", value: 85 },
+    { name: "Stata", value: 75 },
+    { name: "API's", value: 65 },
+    { name: "Statistical Modeling", value: 90 },
+    { name: "TensorFlow", value: 65 },
+    { name: "Tableau", value: 55 },
+    { name: "Java", value: 80 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -126,8 +143,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently looking for Software Engineering or Data Science opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "ndutt@berkeley.edu",
 };
 
 // Blog SECTION
