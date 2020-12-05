@@ -4,8 +4,8 @@
   <h1 align="center">Developer's Portfolio ✨</h1>
 
   <p align="center">
-    It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. Site URL / Demo: 
-    <a href="https://nikhil-dutt.github.io">nikhil-dutt.github.io</a>
+    It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. 
+<!--     <a href="https://nikhil-dutt.github.io">nikhil-dutt.github.io</a> -->
   </p>
 </p>
 
